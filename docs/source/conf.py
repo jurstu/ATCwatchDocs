@@ -40,7 +40,7 @@ release = u''
 # ones.
 extensions = [
 "sphinx.ext.autosectionlabel",
-#"sphinx_rtd_theme",
+"sphinx_rtd_theme",
 #"sphinxjsondomain"
 ]
 
@@ -77,8 +77,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'sphinx_rtd_theme'
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 html_favicon = "files/logo.png"
 html_logo = 'files/logo.png'
