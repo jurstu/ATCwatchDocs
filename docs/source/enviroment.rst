@@ -1,11 +1,13 @@
-.. ATCWatch docs documentation master file, created by
-   sphinx-quickstart on Tue Jun  2 21:01:25 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 
 coding enviroment
-=================
+^^^^^^^^^^^^^^^^^
 
+
+
+TODO::
+    
+    ATC1441's arduino link / project with all stuff installed
+    ref-links to flashing via BT-OTA if preffered
+    burning bootloader/selecting right boards and stuff
 
 456

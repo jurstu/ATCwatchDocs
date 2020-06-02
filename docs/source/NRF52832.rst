@@ -4,18 +4,13 @@
    contain the root `toctree` directive.
 
 
-Welcome to ATCWatch docs's documentation!
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NRF52832
+^^^^^^^^
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+main uC with BLE capabilities
 
-   intro
+TODO::
 
-   hardware
+    make some content about BLE and other nrf-s great peripherials (like their unique PPI)
 
-   enviroment
-
-   ble-ota
 

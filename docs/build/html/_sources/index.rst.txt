@@ -5,7 +5,7 @@
 
 
 Welcome to ATCWatch docs's documentation!
-=========================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 2

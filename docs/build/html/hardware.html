@@ -13,6 +13,8 @@
 
   
   
+    <link rel="shortcut icon" href="_static/logo.png"/>
+  
   
   
 
@@ -35,8 +37,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="coding enviroment" href="enviroment.html" />
-    <link rel="prev" title="Welcome to ATCWatch docs’s documentation!" href="index.html" /> 
+    <link rel="next" title="Hardware overview" href="watchOverview.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,9 +84,15 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware description</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware description</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="watchOverview.html">Hardware overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NRF52832.html">NRF52832</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HRS3300.html">HRS 3300</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="enviroment.html">coding enviroment</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ble-ota.html">BLE-OTA description</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ble-ota.html">BLE-OTA update description</a></li>
 </ul>
 
             
@@ -151,7 +159,23 @@
             
   <div class="section" id="hardware-description">
 <h1>Hardware description<a class="headerlink" href="#hardware-description" title="Permalink to this headline">¶</a></h1>
-<p>789</p>
+<div class="toctree-wrapper compound">
+</div>
+<p>The P8 watch, manufactured by DaFit / Crrepa / Mofit consists of few hardware modules, these are:</p>
+<ul class="simple">
+<li>NRF52832 - the main uC</li>
+<li>I2C HeartRate-sensor hrs3300</li>
+<li>BMA421 accel-sensor</li>
+<li>touch sensor IC</li>
+<li>ST77XX display driver</li>
+<li>Vibration motor</li>
+</ul>
+<p>TODO:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">document</span> <span class="nb">all</span> <span class="n">hardware</span>
+<span class="n">screen</span> <span class="n">resolution</span><span class="o">/</span><span class="n">colors</span>
+<span class="n">touch</span> <span class="n">driver</span> <span class="n">models</span>
+</pre></div>
+</div>
 </div>
 
 
@@ -162,10 +186,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="enviroment.html" class="btn btn-neutral float-right" title="coding enviroment" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="watchOverview.html" class="btn btn-neutral float-right" title="Hardware overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to ATCWatch docs’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

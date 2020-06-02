@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-BLE-OTA description
-===================
+BLE-OTA update description
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 

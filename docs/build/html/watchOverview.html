@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>coding enviroment &mdash; ATCWatch docs  documentation</title>
+  <title>Hardware overview &mdash; ATCWatch docs  documentation</title>
   
 
   
@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="BLE-OTA update description" href="ble-ota.html" />
-    <link rel="prev" title="HRS 3300" href="HRS3300.html" /> 
+    <link rel="next" title="NRF52832" href="NRF52832.html" />
+    <link rel="prev" title="Hardware description" href="hardware.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -85,8 +85,13 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hardware.html">Hardware description</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">coding enviroment</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="hardware.html">Hardware description</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Hardware overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NRF52832.html">NRF52832</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HRS3300.html">HRS 3300</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="enviroment.html">coding enviroment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ble-ota.html">BLE-OTA update description</a></li>
 </ul>
 
@@ -133,13 +138,15 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>coding enviroment</li>
+          <li><a href="hardware.html">Hardware description</a> &raquo;</li>
+        
+      <li>Hardware overview</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/enviroment.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/watchOverview.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -152,15 +159,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="coding-enviroment">
-<h1>coding enviroment<a class="headerlink" href="#coding-enviroment" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="hardware-overview">
+<h1>Hardware overview<a class="headerlink" href="#hardware-overview" title="Permalink to this headline">¶</a></h1>
+<p>Board:</p>
+<img alt="_images/modulesdescribed.jpg" class="align-center" src="_images/modulesdescribed.jpg" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p>available programmers:</p>
+<a class="reference internal image-reference" href="_images/stlinkv2.jpg"><img alt="_images/stlinkv2.jpg" src="_images/stlinkv2.jpg" style="width: 49%;" /></a>
+<a class="reference internal image-reference" href="_images/stlinkv22.jpg"><img alt="_images/stlinkv22.jpg" src="_images/stlinkv22.jpg" style="width: 49%;" /></a>
+<p>Both can be hooked up via SWD to flash the watch via Arduino</p>
 <p>TODO:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ATC1441</span><span class="s1">&#39;s arduino link / project with all stuff installed</span>
-<span class="n">ref</span><span class="o">-</span><span class="n">links</span> <span class="n">to</span> <span class="n">flashing</span> <span class="n">via</span> <span class="n">BT</span><span class="o">-</span><span class="n">OTA</span> <span class="k">if</span> <span class="n">preffered</span>
-<span class="n">burning</span> <span class="n">bootloader</span><span class="o">/</span><span class="n">selecting</span> <span class="n">right</span> <span class="n">boards</span> <span class="ow">and</span> <span class="n">stuff</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">connection</span> <span class="n">guide</span> <span class="o">/</span> <span class="n">schematic</span>
 </pre></div>
 </div>
-<p>456</p>
 </div>
 
 
@@ -171,10 +185,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="ble-ota.html" class="btn btn-neutral float-right" title="BLE-OTA update description" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="NRF52832.html" class="btn btn-neutral float-right" title="NRF52832" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="HRS3300.html" class="btn btn-neutral float-left" title="HRS 3300" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="hardware.html" class="btn btn-neutral float-left" title="Hardware description" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
