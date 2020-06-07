@@ -17,17 +17,19 @@ Board:
 |
 
 
-available programmers:
+available programmers (st-link v2):
 
 .. image:: files/stlinkv2.jpg
    :width: 49%
 .. image:: files/stlinkv22.jpg
    :width: 49%
 
+
+
 Both can be hooked up via SWD to flash the watch via Arduino
 
-TODO::
 
-    connection guide / schematic
+
+
 
 

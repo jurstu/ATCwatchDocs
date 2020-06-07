@@ -21,19 +21,21 @@ Hardware description
 
 The P8 watch, manufactured by DaFit / Crrepa / Mofit consists of few hardware modules, these are:
 
-* NRF52832 - the main uC
-* I2C HeartRate-sensor hrs3300
+* :ref:`NRF52832 - the main uC <NRF52832>`
+* :ref:`HRS3300 heart rate sensor <HRS 3300>`
 * BMA421 accel-sensor
-* touch sensor IC
-* ST77XX display driver
+* CST716 or CST816S touch IC
+* ST7789 display driver
 * Vibration motor
+* 1.4" 240x240 16bit RBG IPS ISP display
+* 4MB external flash chip under vibration motor
 
+
+:ref:`Bluetooth LE <NRF52832>`
 
 
 
 TODO::
 
     document all hardware 
-    screen resolution/colors
-    touch driver models
     
